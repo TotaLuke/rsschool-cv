@@ -34,7 +34,7 @@ function multiply(a, b) {
 **Intern programmer**
 Software development using Qt Framework, studying Qt Widgets and applying them in the developed software.
 
-[Nickola Zinkevich CV](https://TotaLuke.github.io/rsschool-cv/cv)
+[Nickola Zinkevich CV](https://github.com/TotaLuke/rsschool-cv/tree/gh-pages)
 
 ## Education
 - **2015** Belarusian National Technical University, Minsk
