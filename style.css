@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6{
+margin: 0;
+}
+
+a:link {
+  color: rgb(255, 187, 0);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(255, 187, 0);
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  position: relative;
+  width: 1080px;
+  /*min-height: 100vh;*/
+  padding: 0px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #000000;
+  height: 200vh;
+  
+
+}
+
+.container {
+  padding: 0 20px;
+  max-width: 1440;
+  min-height: 50px;
+}
+
+.nav {
+  display: block;
+  font-variant: small-caps;
+  
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  position: relative;
+  padding: 0 12px;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 50px;
+  color: #fff; 
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  margin: 0 0 20px;
+  background-color: rgb(119, 131, 169);
+}
+
+.main {
+  display: block;
+}
+
+.personal-container {
+ display: flex;
+ flex-wrap: nowrap;
+ justify-content: space-between;
+ border-bottom: 10px solid rgb(255, 187, 0);
+}
+
+.first-container {
+display: flex;
+height: 600px;
+}
+
+.second-container {
+  display: flex;
+  height: 600px;
+  }
+  
+.contacts {
+  flex: 1;
+}
+
+.pinformation {
+  flex: 1;
+}
+
+.skills {
+  flex: 1;
+}
+
+.education {
+  flex: 1;
+}
+
+.english {
+  flex: 1;
+}
+
+.avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0);
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  list-style: none;
+  padding: 0 0 0 10px;
+  margin: 0;
+}
+
+.name-surname {
+  font-variant: small-caps;
+  color: rgb(255, 187, 0);
+}
+
+.summary {
+  flex: 1;
+
+}
+
+.description {
+  flex: 1;
+  margin: 0;
+  text-align: justify;
+}
