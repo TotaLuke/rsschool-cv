@@ -1,13 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>CV SampleV</title>
- </head>
- <body>
-  <h1>Nickola Zinkevich</h1>
-  <!-- Comments -->
-  <p>Some text trying apply CSS</p>
-  <p>Some text ^ _ ^</p>
- </body>
+  
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>CV Zinkevich</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-menu">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#contacts" class="nav-link">
+              Contacts
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#pinformation" class="nav-link">
+              Personal qualities
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">
+              Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#education" class="nav-link">
+              Education & Experience</a>
+          </li>
+          <li class="nav-item">
+            <a href="#english" class="nav-link">
+              Languages</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container personal-container">
+      <div class="backgroundAvatar">
+        <img class="avatar" src="./assets/avatar.jpg" alt="avatar photo">
+      </div>
+      <ul class="personal-info">
+        <li class="name-surname">
+          <h1>
+            Nickolai Zinkevich
+          </h1>
+        </li>
+        <li class="summary">
+          <h3>
+            Student RSSchool, Frontend stage#0
+          </h3>
+        </li>
+        <li class="description">
+          <h5>
+            Hello, my name is Nickolai Zinkevich. I was born in 1993. I have been living in Minsk last 12 years.
+            I graduated from the BNTU in 2015, and completed master`s degree in 2016 at the BNTU.
+            Participated in Antarctic expeditions as a systems engineer since 2020. If you want to see real penguins or
+            seals photos dm me :)
+            I am seeking a position with a company where I can use my abilities to create something beautiful.
+          </h5>
+        </li>
+      </ul>
+    </div>
+    <div class="container first-container">
+      <div class="contacts" id="contacts">
+        <h2 class="section-title main-title">
+          Contacts
+        </h2>
+        <ul class="section-list">
+          <li class="section-item">
+            Minsk, Belarus
+          </li>
+          <li class="section-item">
+            Email: <a class="contact-link" href="mailto:nickola.anelka@gmail.com">nickola.anelka@gmail.com</a>
+          </li>
+          <li class="section-item">
+            GitHub: <a class="contact-link" href="https://github.com/TotaLuke">TotaLuke</a>
+          </li>
+          <li class="section-item">
+            Discord: <a class="contact-link" href="https://discordapp.com/users/269526633591996418">ToTa#3359</a>
+          </li>
+          <li class="section-item">
+            Instagram: <a class="contact-link" href="https://www.instagram.com/endzo_totaluke/">endzo_totaluke</a>
+          </li>
+          <li class="section-item">
+            Phone: +375(29) 627-67-57
+          </li>
+        </ul>
+      </div>
+      <div class="pinformation" id="pinformation">
+        <h2 class="section-title main-title">
+          Personal qualities
+        </h2>
+        <ul class="section-list">
+          <li class="section-item">
+            Versatile
+          </li>
+          <li class="section-item">
+            Initiative
+          </li>
+          <li class="section-item">
+            Broad-minded
+          </li>
+          <li class="section-item">
+            Dependable
+          </li>
+          <li class="section-item">
+            Technical mindset
+          </li>
+          <li class="section-item">
+            Communication skills
+          </li>
+          <li class="section-item">
+            Organization skills
+          </li>
+        </ul>
+      </div>
+      <div class="skills" id="skills">
+        <h2 class="section-title main-title">
+          Special skills
+        </h2>
+        <ul class="section-list">
+          <li class="section-item">
+            Driving License (Category B)
+          </li>
+          <li class="section-item">
+            Computer literacy
+            <ul>
+              <li>Microsoft Office</li>
+              <li>ANSYS</li>
+              <li>Solid Works</li>
+              <li>CorelDRAW</li>
+              <li>Adobe Photoshop</li>
+              <li>Compass 3D</li>
+              <li>LabVIEW</li>
+              <li>Math modeling</li>
+              <li>Engineering systems</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container second-container">
+      <div class="education" id="education">
+        <h2 class="section-title main-title">
+          Education
+        </h2>
+        <ul class="section-list">
+          <li class="section-item education-list">
+            2015. Belarusian National Technical University (BNTU),
+            Minsk. Information Technology and Robotics (FITR).
+            Information Systems and Technologies.
+          </li>
+          <li class="section-item education-list">
+            2016. BNTU, Minsk, FITR. System analysis and management. <b>Magistracy</b>.
+          </li>
+          <li class="section-item education-list">
+            2019. Belarusian National Academy of Science, Minsk.
+            Applied physics, non-destructive testing. <b>Graduate school</b>.
+          </li>
+        </ul>
+      </div>
+      <div class="experience">
+        <h2 class="section-title main-title">
+          Experience & Code
+        </h2>
+        <ul class="section-list">
+          <li class="section-item">
+            2014. Intern programmer Software development using Qt Framework, studying Qt Widgets and
+            applying them in the developed software.
+          </li>
+        </ul>
+        <div class="code-example">
+          Javascript code example:
+          <pre class="code-example-1">  function multiply(a, b) {
+    return a * b;
+  }</pre>
+        </div>
+        <div class="code-example">
+          CSS code example:
+          <pre class="code-example-2">  .personal-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    list-style: none;
+    padding: 0 0 0 10px;
+    margin: 0;
+  }</pre>
+        </div>
+      </div>
+      <div class="programming">
+        <div class="program">
+          <h2 class="section-title main-title">
+            Programming
+          </h2>
+          <ul class="section-list">
+            <li class="section-item">
+              Junior C, C++, C#, .Net
+            </li>
+            <li class="section-item">
+              Studying HTML, CSS, JavaScript
+            </li>
+            <li class="section-item">
+              Junior Git
+            </li>
+            <li class="section-item">
+              Qt Framework
+            </li>
+            <li class="section-item">
+              Studying VS Code
+            </li>
+          </ul>
+        </div>
+        <div class="languages" id="english">
+          <h2 class="section-title main-title">
+            Languages
+          </h2>
+          <h4 class="section-item languages">Russian: Native</h4>
+          <h4 class="section-item languages">English: A1/A2</h4>
+          <h4 class="section-item languages">
+            I studied at school in the english humanities class for 11 years, but recently I forgot a lot things.
+          </h4>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <div>© 2022</div>
+      <a href="https://github.com/TotaLuke" class="git"></a>
+      <a href="https://rs.school/js/" class="rss"></a>
+    </div>
+  </footer>
+</body>
 </html>
