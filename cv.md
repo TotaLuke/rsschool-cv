@@ -40,7 +40,7 @@ JS/FE Pre-School 2022Q2
 #### **Complete tasks**
 ###### [Travel task from stage #0](https://rolling-scopes-school.github.io/totaluke-JSFEPRESCHOOL2022Q2/travel/)
 ###### [Momentum task from stage #0](https://rolling-scopes-school.github.io/totaluke-JSFEPRESCHOOL2022Q2/momentum/)
-###### [CodeJam tsak from stage #0](https://totaluke.github.io/eldritch-codejam/)
+###### [CodeJam task from stage #0](https://totaluke.github.io/eldritch-codejam/)
 
 ## Education
 - **2015** Belarusian National Technical University, Minsk
