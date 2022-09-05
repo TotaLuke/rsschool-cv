@@ -14,35 +14,40 @@
 - Technical mindset
 - Communication skills
 - Organization skills
-- The desire to learn new things in HTML/CSS/JavaScript 
 ## Special skills
-- Native Russian
 - Driving License (Category B)
 - Computer literacy (Microsoft Office, ANSYS, Solid Works, CorelDRAW, Adobe Photoshop, Compass 3D, LabVIEW, Math modeling, Engineering systems)
 ## Programming skills
-- Junior C, C++, C#, .Net
-- Junior Git
+- C, C++, C#, .Net
+- Git
 - Qt Framework
-- Starting learning VS Code, WebStorm
 ## CodeWars code sample
 ```
-function multiply(a, b) {
-  return a * b;
+function isPrime(num) { 
+  if (num <= 1) return false; 
+  if (num % 2 == 0 && num > 2) return false; 
+  for(let i = 3; i <= Math.sqrt(num); i += 2) {
+      if(num % i === 0) return false; 
+  }
+  return true;
 }
 ```
 ## Work Experience
-**Intern programmer**
-Software development using Qt Framework, studying Qt Widgets and applying them in the developed software.
-
-[Nickola Zinkevich CV](https://github.com/TotaLuke/rsschool-cv/tree/gh-pages)
+#### **Intern programmer**
+Software development using Qt Framework and C++, studying Qt Widgets and applying them in the developed software.
+#### **Finished courses**
+JS/FE Pre-School 2022Q2
+#### **Complete tasks**
+###### [Travel task from stage #0](https://rolling-scopes-school.github.io/totaluke-JSFEPRESCHOOL2022Q2/travel/)
+###### [Momentum task from stage #0](https://rolling-scopes-school.github.io/totaluke-JSFEPRESCHOOL2022Q2/momentum/)
+###### [CodeJam tsak from stage #0](https://totaluke.github.io/eldritch-codejam/)
 
 ## Education
 - **2015** Belarusian National Technical University, Minsk
 Information Technology and Robotics (FITR) , Information Systems and Technologies
 - **2016** Belarusian National Technical University, Minsk
-FITR , System analysis and management
+FITR , System analysis and management. **Master degree.**
+- **2019** Belarusian National Academy of Science, Minsk. Applied physics, non-destructive testing. **Postgraduate degree.**
 
 ## English level
-**A1**
-
-I studied at school in the humanities class for 11 years, but recently I forgot a lot things.
+**A2**
